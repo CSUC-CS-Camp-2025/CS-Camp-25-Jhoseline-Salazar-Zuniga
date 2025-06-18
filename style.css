@@ -2,5 +2,5 @@ body {
   background-image: url("https://th.bing.com/th/id/OIP.USr-0kP5uE3J880134DWigHaEo?w=307&h=194&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3");
   background-size: cover; /* scales the image to cover entire area */
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 1200px 750px;
 }
