@@ -18,7 +18,7 @@ body {
 
     .glitch {
       font-size: 4rem;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-family: 'Times New Roman', Times, serif;
       color: white;
       position: relative;
       animation: glitch-skew 1s infinite linear alternate-reverse;
