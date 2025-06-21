@@ -7,71 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <title>class= "whiteclass" My Webpage</title>
 </head>
-     <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      height: 100vh;
-      margin: 0;
-    }
-
-    .glitch {
-      font-size: 4rem;
-      font-family: 'Courier New', monospace;
-      color: white;
-      position: relative;
-      animation: glitch-skew 1s infinite linear alternate-reverse;
-    }
-
-    .glitch::before,
-    .glitch::after {
-      content: attr(data-text);
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      color: white;
-      background: transparent;
-      overflow: hidden;
-      clip: rect(0, 900px, 0, 0);
-    }
-
-    .glitch::before {
-      left: 2px;
-      text-shadow: -2px 0 red;
-      animation: glitch-anim 2s infinite linear alternate-reverse;
-    }
-
-    .glitch::after {
-      left: -2px;
-      text-shadow: -2px 0 blue;
-      animation: glitch-anim2 2s infinite linear alternate-reverse;
-    }
-
-    @keyframes glitch-anim {
-      0%   { clip: rect(0, 9999px, 0, 0); }
-      5%   { clip: rect(10px, 9999px, 30px, 0); }
-      10%  { clip: rect(20px, 9999px, 50px, 0); }
-      15%  { clip: rect(15px, 9999px, 40px, 0); }
-      100% { clip: rect(0, 9999px, 0, 0); }
-    }
-
-    @keyframes glitch-anim2 {
-      0%   { clip: rect(0, 9999px, 0, 0); }
-      5%   { clip: rect(30px, 9999px, 60px, 0); }
-      10%  { clip: rect(40px, 9999px, 80px, 0); }
-      15%  { clip: rect(25px, 9999px, 50px, 0); }
-      100% { clip: rect(0, 9999px, 0, 0); }
-    }
-
-    @keyframes glitch-skew {
-      0% { transform: skew(0deg); }
-      50% { transform: skew(1deg, -1deg); }
-      100% { transform: skew(0deg); }
-    }
-  </style>
 
 
     <!-- Your content goes here -->
@@ -82,8 +17,10 @@
 <hr>
     <img src="https://th.bing.com/th/id/OIP.g49tacMpTS9hOmbuk1Y2DgHaEH?w=312&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Kim Dokja">
    <br>
+<body>
 
-   
+ 
+  <div class="glitch" data-text="GLITCHED TITLE">This is my Personal Webpage ⚔</div>  
 
 </body>
 </html>
