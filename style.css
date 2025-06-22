@@ -120,8 +120,8 @@ body {
       background: url('https://th.bing.com/th/id/OIP.g49tacMpTS9hOmbuk1Y2DgHaEH?w=273&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3') no-repeat center/cover;
       mix-blend-mode: screen;
       opacity: 0.8;
-      pointer-events: auto;
-      cursor: pointer;
+      pointer-events: none;
+    
       animation: glitch-anim 2s infinite linear alternate-reverse;
     }
   
