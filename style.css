@@ -34,7 +34,7 @@ body {
 
     .glitch::before {
       left: 2px;
-      text-shadow: -2px 0 red;
+      text-shadow: -2px 0 magenta;
       animation: glitch-anim-1 2s infinite linear alternate-reverse;
     }
 
