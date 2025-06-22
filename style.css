@@ -133,6 +133,20 @@ body {
       cursor: pointer;
       animation: glitch-anim 2s infinite linear alternate-reverse;
     }
+    .flex-container {
+      display: flex;
+      background-color: white;
+      justify-content: center;
+    }
+    .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 2px;
+    font-size: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 20px 5px lightblue;
+
+    }
 
     .glitch-img::after {
       left: 2px;
