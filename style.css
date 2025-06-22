@@ -135,7 +135,7 @@ body {
 
     .glitch-img::after {
       left: 2px;
-      text-shadow: -2px 0 red;
+      text-shadow: -2px 0 rgba(248, 4, 244, 0.925);
       animation: glitch-anim2 2s infinite linear alternate-reverse;
       mix-blend-mode: lighten;
       opacity: 0.7;
