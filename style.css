@@ -7,21 +7,11 @@ body {
 }
 */
  body {
-      margin: 0;
-      padding: 0;
-      min-height: 400vh; /* Forces scrolling */
-      background-image: url('https://i.pinimg.com/originals/35/a2/31/35a23139c163b2f862c222ff478bc811.jpg');
-      background-repeat: repeat;
-      background-attachment: scroll; /* or 'fixed' to keep it in place */
-      background-size: auto; /* default, or use contain/cover if needed */
-      color: white;
-      font-family: sans-serif;
-       display: flex;
+    background: black;
+      display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
-      height: 200vh; 
-      margin: 0;
+      height: 100vh;
  }
 
     h1 {
