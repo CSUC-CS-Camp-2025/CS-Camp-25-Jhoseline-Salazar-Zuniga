@@ -16,7 +16,13 @@ body {
       background-size: auto; /* default, or use contain/cover if needed */
       color: white;
       font-family: sans-serif;
-    }
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh; 
+      margin: 0;
+ }
 
     h1 {
       text-align: center;
@@ -28,15 +34,7 @@ body {
       margin: 100px auto;
       line-height: 1.8;
     }
-
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      height: 100vh;
-      margin: 0;
-    }
+     
 
     .glitch {
       font-size: 4rem;
@@ -94,11 +92,7 @@ body {
     
     }
      body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
+      
     }
 
     .glitch-img {
