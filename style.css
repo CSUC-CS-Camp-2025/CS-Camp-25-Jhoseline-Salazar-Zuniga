@@ -4,6 +4,7 @@ body {
   background-size: cover; /* scales the image to cover entire area */
   background-repeat: repeat;
   background-position: center;
+  flex-direction: column;
 }
 
      body {
