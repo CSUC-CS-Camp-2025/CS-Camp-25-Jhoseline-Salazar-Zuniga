@@ -121,7 +121,7 @@ body {
     .glitch-img::before,
     .glitch-img::after {
       content: '';
-      position: absolute;
+      position: left;
       top: 0;
       left: 0;
       width: 100%;
