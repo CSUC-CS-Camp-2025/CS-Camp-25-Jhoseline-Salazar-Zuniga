@@ -1,11 +1,33 @@
-
+/*
 body {
   background-image: url('https://i.pinimg.com/originals/35/a2/31/35a23139c163b2f862c222ff478bc811.jpg');
-  background-size: cover; /* scales the image to cover entire area */ 
+  background-size: cover; /* scales the image to cover entire area */ /*
   background-repeat: repeat;
   background-position: center;
 }
+*/
+ body {
+      margin: 0;
+      padding: 0;
+      min-height: 200vh; /* Forces scrolling */
+      background-image: url('https://i.pinimg.com/originals/35/a2/31/35a23139c163b2f862c222ff478bc811.jpg');
+      background-repeat: repeat;
+      background-attachment: scroll; /* or 'fixed' to keep it in place */
+      background-size: auto; /* default, or use contain/cover if needed */
+      color: white;
+      font-family: sans-serif;
+    }
 
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .content {
+      max-width: 600px;
+      margin: 100px auto;
+      line-height: 1.8;
+    }
 
     body {
       display: flex;
