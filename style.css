@@ -5,7 +5,16 @@ body {
   background-repeat: repeat;
   background-position: center;
   flex-direction: column;
+
 }
+.scrollable {
+  width: 300px;
+  height: 200px;
+  overflow: auto; /* enables scrolling when content overflows */
+}
+
+
+
 
      body {
       display: flex;
